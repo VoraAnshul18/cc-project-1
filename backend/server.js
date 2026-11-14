@@ -31,10 +31,11 @@ app.use(
         return callback(null, true);
       }
 
-      // Check against allowed origins or Netlify domains
+      // Check against allowed origins or Netlify / Vercel domains
       const isAllowed =
         allowedOrigins.includes(origin) ||
         /\.netlify\.app$/.test(origin) ||
+        /\.vercel\.app$/.test(origin) ||
         origin.startsWith('http://localhost:');
 
       if (isAllowed) {

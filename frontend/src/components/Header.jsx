@@ -11,7 +11,7 @@ export default function Header({ onRefresh, loading }) {
           </div>
           <div>
             <span className="brand-title">Student Information Management System</span>
-            <span className="brand-subtitle">Three-Tier Cloud Architecture (Netlify + Render + MongoDB Atlas)</span>
+            <span className="brand-subtitle">Three-Tier Cloud Architecture (Vercel + Render + MongoDB Atlas)</span>
           </div>
         </div>
 

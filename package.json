@@ -15,7 +15,7 @@
     "three-tier-architecture",
     "mongodb-atlas",
     "render",
-    "netlify",
+    "vercel",
     "express",
     "react",
     "vite"

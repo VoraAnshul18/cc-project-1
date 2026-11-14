@@ -7,7 +7,7 @@ export default function ArchitectureBanner({ backendHealthy, checkingHealth }) {
 
   return (
     <div className="tiers-banner">
-      {/* Tier 1: Netlify */}
+      {/* Tier 1: Vercel */}
       <div className="tier-card">
         <div className="tier-icon-wrap tier-netlify">
           <Globe size={22} />
@@ -15,7 +15,7 @@ export default function ArchitectureBanner({ backendHealthy, checkingHealth }) {
         <div className="tier-info">
           <h4>Tier 1: Presentation</h4>
           <div className="tier-name">
-            Netlify <span className="status-dot online" title="Frontend is active"></span>
+            Vercel <span className="status-dot online" title="Frontend is active"></span>
           </div>
           <span style={{ fontSize: '0.75rem', color: '#64748b' }}>React SPA Client</span>
         </div>
